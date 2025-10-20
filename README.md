@@ -1,7 +1,7 @@
-<h1>Jogo do número secreto - Curso Alura</h1>
+<h1>Cursos Alura</h1>
 
 <h2>Sobre</h2>
-<p>Projeto utilizado para o curso de git & github da Alura.</p>
+<p>Projetos utilizados para cursos da Alura.</p>
 
 ## Tecnologias
 <div>
