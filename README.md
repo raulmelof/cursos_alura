@@ -1,7 +1,7 @@
 <h1>Cursos Alura</h1>
 
 <h2>Sobre</h2>
-<p>Projetos utilizados para cursos da Alura.</p>
+<p>Projetos utilizados em cursos da Alura.</p>
 
 ## Tecnologias
 <div>
