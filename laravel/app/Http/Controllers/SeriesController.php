@@ -22,11 +22,8 @@ class SeriesController extends Controller
 
     public function store(Request $request)
     {
-        $nomeSerie = $request->input('nome');
-        $serie = new Serie();
-        $serie->nome = $nomeSerie;
-        $serie->save();
+        Serie::create($request->all()); // use only para buscar apenas os campos desejados e except para ignorar campos específicos
 
-        return redirect('/series');
+        return to_route('series.index');
     }
 }
