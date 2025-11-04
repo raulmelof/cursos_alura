@@ -23,6 +23,9 @@ class SeriesController extends Controller
 
     public function store(Request $request)
     {
+        $request->validate([
+            'nome' => ['required', 'min:3']
+        ]);
         $serie = Serie::create($request->all()); // use only para buscar apenas os campos desejados e except para ignorar campos específicos
 
         return to_route('series.index')->with('mensagem.sucesso', "Série '{$serie->nome}' adicionada com sucesso");
