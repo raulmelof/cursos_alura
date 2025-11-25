@@ -22,5 +22,5 @@ class Series extends Model
         self::addGlobalScope('ordered', function(Builder $queryBuider){
             $queryBuider->orderBy('nome');
         });
-    }
+    } 
 }
